@@ -511,7 +511,7 @@ body{
 	
 	
 }
-.hem h2{
+.hem h2,h1{
 	text-align: center;
 	color:white;
 	text-transform: uppercase;
@@ -2032,7 +2032,7 @@ footer{
 		order: 1;
 	}
 
-	.hem h2{
+	.hem h2,h1{
 		font-size: 2.5em;
 	}
 
