@@ -174,6 +174,11 @@ header{
 .menumovil2 .hul li a{
 	color: #ede7f3;
 }
+.logofinal2 img{
+	height: 120px;
+margin-bottom:1em;
+}
+
 
 
 
@@ -902,6 +907,7 @@ option{
 	margin-top: -10px;
 	text-transform: uppercase;
 	font-style: italic;
+	width: 90%;
 }
 
 
@@ -913,7 +919,6 @@ option{
 
 .clientes{
 	margin-top: 5%;
-	margin-bottom: 5%;
 }
 
 .parr{
@@ -948,7 +953,9 @@ option{
 .funcadmin p{
 	line-height: 1.3em;
 	font-size: 1.2em;
-	margin: 3% 0;
+	margin: 0 auto;
+	width: 90%;
+	
 }
 
 .textmodulo{
@@ -960,6 +967,8 @@ option{
 
 .textpanel{
 	margin-top: 3%;
+	margin: 0 auto;
+    width: 90%;
 	line-height: 1.3em;
 	font-size: 1.2em;
 }
@@ -1173,7 +1182,10 @@ option{
 text-align: center;
 line-height: 1.3em;
 font-size: 1.2em;
+margin: 0 auto;
+width: 90%;
 }
+
 .formu button{
 	width: 60%;
 }
@@ -1708,7 +1720,9 @@ p{
 
 .texto1 p{
 	line-height: 1.3em;
-    font-size: 1.2em;
+	font-size: 1.2em;
+	margin: 0 auto;
+    width: 90%;
 }
 .texto1 p span{
 	line-height: 1.3em;
@@ -1745,6 +1759,8 @@ p{
 .texto2 p{
 	line-height: 1.3em;
 	font-size: 1.2em;
+	margin: 0 auto;
+    width: 90%;
 }
 
 
@@ -2056,7 +2072,38 @@ figure a{
 
 }
 
+.final{
+	color: #ffffff;
+}
 
+.Servicioalcliente{
+	margin: auto auto;
+	text-align: center;
+}
+
+.Servicioalcliente a p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	color: #4d148c;
+}
+
+.Servicioalcliente a {
+	text-decoration: none;
+	
+	font-size: 16px;
+}
+
+.Servicioalcliente h3{
+	font-size: 25px;
+}
+
+.Servicioalcliente span{
+	color: #FF6600;
+}
+.Servicioalcliente div{
+	margin-bottom: 15px;
+}
 
 .menumovil2 .hul li a{
 	display: block;
@@ -2119,7 +2166,7 @@ figure a{
 	width: 100%;
 	height: 100%;
 	
-	background: #ff6600;
+	
 }
 
 .mapacontacto{
@@ -2131,8 +2178,21 @@ figure a{
 
 footer{
 	width: 100%;
-	height: 300px;
-	background: #4d148c;
+	height: 20px;
+	
+}
+
+.diseño{
+	font-size: 12px;
+}
+
+.diseño p{
+	text-align: center;
+}
+
+.diseño a{
+	text-decoration: none;
+	color:#4d148c;
 }
 
 
@@ -2394,6 +2454,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.logofinal img:hover{
 		transform: scale(1.1);
 		transition: 1s all;
+		
+	}
+
+	.logofinal2 img:hover{
+		transform: scale(1.1);
+		transition: 1s all;
+		
 		
 	}
 
@@ -2667,7 +2734,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	display: grid;
 	grid-template-columns: 50%  auto;
 
-	background: #ff6600;
+	
 }
 
 .mapacontacto{
@@ -2744,16 +2811,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
-	footer{
-		display: grid;
-		grid-template-columns: auto auto auto;
 
-	}
 
-	footer div{
-		width: 100%;
-		height: 300px;
-	}
+
 
 	.portadamovil1{
 	
