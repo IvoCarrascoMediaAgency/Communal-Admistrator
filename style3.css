@@ -700,6 +700,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	
 }
 
+.fantasma{
+	width: 100%;
+	height: 500px;
+}
+
 .cerrar{
 	margin-top: 20px;
 	position: absolute;
@@ -752,12 +757,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 form {
     width: 90%;
     margin: 0 auto;
-    /* display: grid; */
-    /* justify-items: center; */
+    
    
     max-width: 400px;
     overflow: hidden;
 	height: 100%;
+	display: grid;
+    align-content: center;
 }
 
 input, textarea {
@@ -1996,7 +2002,7 @@ figure a{
 
  #contenidopreciox2 ul li {
 	font-size: 16px;
-	margin: 30px 5px;
+	margin: 18px 5px;
 	color: #EDE7F3;
 	text-align: center;
 	
@@ -2078,6 +2084,7 @@ figure a{
 
 .icon-visto{
 	font-size: 0.8em;
+	color: #FF6600;
 
 }
 
@@ -2613,7 +2620,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
  #contenidopreciox2 ul li {
 	font-size: 16px;
-	margin: 30px 5px;
+	margin: 18px 5px;
 	color: #EDE7F3;
 	text-align: center;
 	
@@ -2663,9 +2670,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .mapacontacto{
+	
 	width: 100%;
-	height: 100%;
-	overflow: hidden;
+    height: 300px;
+    display: grid;
+    align-content: center;
 }
 
 
