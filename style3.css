@@ -707,10 +707,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .cerrar{
-	margin-top: 20px;
-	position: absolute;
+	margin-top: 5px;
+    position: absolute;
     top: 0;
-    right: 20px;
+    right: 5px;
 	
 }
 
@@ -759,13 +759,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 form {
     width: 90%;
     margin: 0 auto;
-    
-   
     max-width: 400px;
     overflow: hidden;
 	height: 100%;
 	display: grid;
-    align-content: center;
+	align-content: center;
+	margin-top: 30px;
 }
 
 input, textarea {
