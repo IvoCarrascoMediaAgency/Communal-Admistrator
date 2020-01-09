@@ -1252,6 +1252,14 @@ width: 90%;
 
 }
 
+.caption a{
+	border-radius: 3px;
+	background:  linear-gradient(to bottom, #EDE7F3 0%,#4D148C 100%);
+	line-height: 35px;
+	width: 130px;
+	text-align: center;
+}
+
 .caption a:hover{
 	color: #FF6600;
 	transform: scale(1.2);
@@ -1322,7 +1330,6 @@ width: 90%;
 	font-style: italic;
 	margin: 5% 0;
 }
-
 
 
 
@@ -2439,6 +2446,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
+.btn2p{
+	width: 60%
+}
 
 
 
