@@ -2045,9 +2045,9 @@ figure a{
 .Servicioalcliente span{
 	color: #FF6600;
 }
-.Servicioalcliente div{
+/* .Servicioalcliente div{
 	margin-bottom: 15px;
-}
+} */
 
 .menumovil2 .hul li a{
 	display: block;
@@ -2156,7 +2156,7 @@ footer{
                            "frase  video"
                            "boton  boton";
     grid-template-rows: auto;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
      
     
         
@@ -2638,6 +2638,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.quees{
 		margin-top: 10px;
 		height: 100%;
+	}
+	.logof2 img {
+		
+		margin-bottom: 0;
 	}
 }
 }
