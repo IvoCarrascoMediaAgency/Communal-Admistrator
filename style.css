@@ -1171,27 +1171,32 @@ width: 90%;
 }
 
 .containers .slider  .slide1{
-	background: url(img/quito.jpg);
+	background: url(img/quito.webp);
 	background-size: cover;
 	background-position: center;
 
 }
 
+.videodemo2{
+	width: 500px;
+	height: 500px;
+}
+
 .containers .slider  .slide2{
-	background: url(img/guayaquil.jpg);
+	background: url(img/guayaquil.webp);
 	background-size: cover;
 	background-position: center;
 
 }
 
 .containers .slider  .slide3{
-	background: url(img/cuenca.jpg);
+	background: url(img/cuenca.webp);
 	background-size: cover;
 	background-position: center;
 
 }
 .containers .slider .slide4{
-	background: url(img/amb.jpg);
+	background: url(img/amb.webp);
 	background-size: cover;
 	background-position: center;
 
