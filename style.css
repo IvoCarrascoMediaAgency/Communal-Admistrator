@@ -538,7 +538,13 @@ body{
 }
 
 
-
+.videoco2{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
 
 .esconde{
 
@@ -642,12 +648,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 100%;
 	height: 100%;
 	z-index: 1002;
-	overflow: scroll;
+	
 }
 
 .modalvideocenter{
 	align-self: center;
-	justify-self: center;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    margin-top: 20px;
+    position: relative;
 }
 
 
@@ -664,6 +674,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	
 }
 
+.cerrar2{
+	position: fixed;
+}
 
 
 
