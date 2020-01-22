@@ -1209,7 +1209,7 @@ width: 90%;
 	padding: 30px;
 	
 	box-sizing: border-box;
-	z-index: 100
+	z-index: 9;
 }
 
 .caption img{
@@ -1315,9 +1315,33 @@ width: 90%;
 
 }
 
+.funcih2{
+	text-align: center;
+	margin: 15px;
+}
+
+.funciul{
+	display: grid;
+    margin: 0 auto;
+    width: 80%;
+    margin: 10px auto;
+    list-style: none;
+    line-height: 1.3em;
+	font-size: 1.2em;
+	color: #666;
+    
+}
+
+.funciul ul{
+	
+	margin: 5px 0;
+}
 .imgmodal{
 	width: 100%;
 }
+
+
+
 /* 
 .slider{
 	width: 100%;
