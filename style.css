@@ -1861,7 +1861,7 @@ p{
 	color: #FF6600;;
 }
 
-.texto1 a{
+.texto1, .textadmin a{
 	color: #FF6600;
 	cursor: pointer;
 	text-decoration: none;
