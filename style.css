@@ -1819,7 +1819,12 @@ nav li{
     display: none;
 }
 
+.btnprueba1, a{
+    color: #ff6600;
+font-weight: bold;
+text-decoration: none;
 
+}
 
 
 /* primer parrafo */
@@ -2484,12 +2489,7 @@ footer{
     cursor: pointer;
 }
     
-.btnprueba1, a{
-    color: #ff6600;
-font-weight: bold;
-text-decoration: none;
 
-}
 
 
 

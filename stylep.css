@@ -1846,7 +1846,12 @@ nav li{
 }
 
 
+.btnprueba1, a{
+    color: #ff6600;
+font-weight: bold;
+text-decoration: none;
 
+}
 
 /* primer parrafo */
 
@@ -2758,12 +2763,7 @@ width: 100%;
     cursor: pointer;
 }
     
-.btnprueba1, a{
-    color: #ff6600;
-font-weight: bold;
-text-decoration: none;
 
-}
 
 
 
