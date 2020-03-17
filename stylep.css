@@ -839,6 +839,20 @@ input, textarea {
 	line-height: 25px;
 	color: white;
 }
+.sumitb2{
+	display: block;
+    position: relative;
+    margin: 5% auto 0 auto;
+    border-radius: 5px;
+    background: red;
+    
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+	line-height: 25px;
+	color: red;
+}
 
 select{
 	width: 100%;
