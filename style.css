@@ -520,6 +520,10 @@ body{
     max-width: 350px;
 }
 
+.h2portada2{
+	text-transform: initial;
+
+}
 @keyframes hemh2a {
 	from{
 		transform: translateX(-30px);
@@ -550,6 +554,11 @@ body{
 	margin-top: 20px;
 	position: relative;
 } 
+
+.video22{
+	height: 100%;
+   
+}
 
 .videoco{
 	height: 100%;
@@ -1609,6 +1618,14 @@ nav li{
 	
 	}
 
+
+	.colum2 {
+		display: grid;
+		
+		grid-template-areas: "uno dos";
+		width: 100%;
+	}
+
 	.whatsapp:before{
 		top:10px;
 	}
@@ -1795,6 +1812,16 @@ nav li{
 
     
 }
+
+.dc{
+	grid-template-areas:
+	"titulo"
+	"video"
+	"frase"
+	"boton";
+
+}
+
 
 .hem{
     grid-area: titulo;
@@ -2289,6 +2316,19 @@ figure a{
 	text-align: center;
 }
 
+.S2{
+	
+	background: rgba(255,255,255,0.7);
+	margin-top: 10px;
+
+	
+}
+
+
+
+
+
+
 .Servicioalcliente a p{
 	margin-bottom: 10px;
 	margin-top: 10px;
@@ -2312,6 +2352,30 @@ figure a{
 /* .Servicioalcliente div{
 	margin-bottom: 15px;
 } */
+
+.ht2 a p{
+	text-shadow: none;
+	color:  #777;;
+	
+	
+
+
+}
+
+.S2 span::before{
+	
+	color: white;
+	background: #25D366;
+	border-radius: 50%;
+
+	
+}
+
+span.er3::before{
+	background: none;
+    color: #4d148c;
+
+}
 
 .menumovil2 .hul li a{
 	display: block;
@@ -2426,6 +2490,17 @@ footer{
     
         
 	}
+
+
+	.dc{
+		grid-template-areas:
+        "titulo titulo"
+        "video frase"
+        "boton boton";
+
+	}
+
+	
 
 	.post{
 		display: grid;
